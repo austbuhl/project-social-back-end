@@ -1,0 +1,38 @@
+[
+  {
+    "Prop_ID": "X002",
+    "Name": "The Bronx Zoo",
+    "Location": "2300 Southern Boulevard, Bronx, NY 10460",
+    "Phone_Num": "(718) 367-1010"
+  },
+  {
+    "Prop_ID": "B073",
+    "Name": "Prospect Park Wildlife Center",
+    "Location": "450 Flatbush Avenue, Brooklyn, NY 11225",
+    "Phone_Num": "(718) 399-7339"
+  },
+  {
+    "Prop_ID": "M010",
+    "Name": "Central Park Wildlife Center & Tisch Children's Zoo",
+    "Location": "5th Avenue & East 64th Street, New York, NY 10021",
+    "Phone_Num": "(212) 439-6500"
+  },
+  {
+    "Prop_ID": "Q099",
+    "Name": "Queens Wildlife Center",
+    "Location": "53-51 111th Street, Flushing, NY 11368",
+    "Phone_Num": "(718) 271-1500"
+  },
+  {
+    "Prop_ID": "B169",
+    "Name": "New York Aquarium",
+    "Location": "Surf Avenue & West 8th Street, Brooklyn, NY 11224",
+    "Phone_Num": "(718) 265-3474"
+  },
+  {
+    "Prop_ID": "R003",
+    "Name": "Staten Island Zoo",
+    "Location": "614 Broadway",
+    "Phone_Num": "(718) 442-3100"
+  }
+]

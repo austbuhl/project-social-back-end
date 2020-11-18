@@ -1,0 +1,65 @@
+[
+  {
+    "Prop_ID": "X039",
+    "Name": "Pelham Bay Park",
+    "Description": "The bridle path in Pelham Bay Park provides beautiful vistas of marshland and woods. ",
+    "Stable_Name": "<a href=\"http://www.bronxequestriancenter.com/\">Bronx Equestrian Center</a>",
+    "Stable_Phone": "(718) 885-0551",
+    "lat": "40.8586",
+    "lon": "-73.8027"
+  },
+  {
+    "Prop_ID": "X092",
+    "Name": "Van Cortlandt Park",
+    "Description": "Situated on 21 acres, the Riverdale Stables offers academy lessons seven days a week, indoor and outdoor rings, boarding and training of private horses, summer and winter camps, lessons galore, and easy access to the miles of trails in Van Cortlandt Park.",
+    "Stable_Name": "<a href=\"http://www.riverdalestables.com/the-riverdale-stables\">The Riverdale Stables</a>",
+    "Stable_Phone": "(718) 548-4848",
+    "lat": "40.894",
+    "lon": "-73.8919"
+  },
+  {
+    "Prop_ID": "B073",
+    "Name": "Prospect Park",
+    "Description": "This 3.5 mile-long bridle path winds through scenic woodlands, meadows, and a ravine. It begins at the Park Circle entrance (the intersection of Coney Island Avenue, Parkside Avenue, and Prospect Park Southwest) and continues along the Lake to the Long Meadow and the Midwood.",
+    "Stable_Name": "<a href=\"http://www.kensingtonstables.com/\">Kensington Stables</a>; <a href=\"http://gallopnyc.org\">GALLOP NYC</a>",
+    "Stable_Phone": "(718) 972-4588",
+    "lat": "40.6617",
+    "lon": "-73.9708"
+  },
+  {
+    "Prop_ID": "M010",
+    "Name": "Central Park",
+    "Description": "Horseback riding services are not available in Central Park at this time. Thank you for your interest.",
+    "Stable_Name": null,
+    "Stable_Phone": null,
+    "lat": "40.7825",
+    "lon": "-73.9656"
+  },
+  {
+    "Prop_ID": "Q015",
+    "Name": "Forest Park",
+    "Description": "The four-mile equestrian path meanders through 165 acres of oak forest.",
+    "Stable_Name": "<a href=\"http://gallopnyc.org/\">GallopNYC Forest Hills</a>",
+    "Stable_Phone": "(718) 261-7679",
+    "lat": "40.6993",
+    "lon": "-73.8617"
+  },
+  {
+    "Prop_ID": "R",
+    "Name": "Throughout Staten Island",
+    "Description": "The borough offers a wide variety of riding terrain, from beaches to parks and city streets to wooded trails.",
+    "Stable_Name": "<a href=\"https://www.facebook.com/seguine.equestrian\">Seguine Equestrian Center</a>",
+    "Stable_Phone": "(718) 317-1121",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "Prop_ID": "Q094D",
+    "Name": "Gemini Fields",
+    "Description": "A country style horse barn in Gemini Fields, GallopNYC offers therapeutic and recreational riding in a large outdoor arena.",
+    "Stable_Name": "<a href=\"http://gallopnyc.org/sunrise-stables\">GallopNYC: Sunrise Stables</a>",
+    "Stable_Phone": "(646) 233-4507",
+    "lat": "40.6704",
+    "lon": "-73.8547"
+  }
+]

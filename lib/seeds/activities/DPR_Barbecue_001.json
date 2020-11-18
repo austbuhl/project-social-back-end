@@ -1,0 +1,354 @@
+[
+  {
+    "Prop_ID": "X010",
+    "Name": "Crotona Park",
+    "Location": "Crotona Park East & Charlotte Street (Indian Lake)"
+  },
+  {
+    "Prop_ID": "X126",
+    "Name": "Ferry Point Park",
+    "Location": "North end of park"
+  },
+  {
+    "Prop_ID": "X126",
+    "Name": "Ferry Point Park",
+    "Location": "South end of park"
+  },
+  {
+    "Prop_ID": "X039",
+    "Name": "Pelham Bay Park",
+    "Location": "Orchard Beach Park North Lawn"
+  },
+  {
+    "Prop_ID": "X039",
+    "Name": "Pelham Bay Park",
+    "Location": "Orchard Beach Park South Lawn"
+  },
+  {
+    "Prop_ID": "X039",
+    "Name": "Pelham Bay Park",
+    "Location": "North Picnic Area - Bruckner Boulevard & Wilkinson Avenue"
+  },
+  {
+    "Prop_ID": "X092",
+    "Name": "Van Cortlandt Park ",
+    "Location": "Allen Shandler Recreation Area: Jerome Avenue, South of 233rd Street"
+  },
+  {
+    "Prop_ID": "X092",
+    "Name": "Van Cortlandt Park",
+    "Location": "off Broadway, behind the Nature Center"
+  },
+  {
+    "Prop_ID": "B077",
+    "Name": "Coffey Park",
+    "Location": "At Verona and Richards streets"
+  },
+  {
+    "Prop_ID": "B077",
+    "Name": "Coffey Park",
+    "Location": "At Verona and Dwight streets"
+  },
+  {
+    "Prop_ID": "B032",
+    "Name": "Fort Greene Park",
+    "Location": "Along Myrtle Avenue between North Portland Avenue and St. Edwards Street"
+  },
+  {
+    "Prop_ID": "B129",
+    "Name": "Kaiser Park",
+    "Location": "At West 33rd Street "
+  },
+  {
+    "Prop_ID": "B251",
+    "Name": "Manhattan Beach ",
+    "Location": "Northeast of Promenade, median adjacent to parking lot (no amplified sound permitted)"
+  },
+  {
+    "Prop_ID": "B251",
+    "Name": "Manhattan Beach ",
+    "Location": "Oriental Boulevard & Hastings Street (no amplified sound permitted)"
+  },
+  {
+    "Prop_ID": "B073",
+    "Name": "Prospect Park",
+    "Location": "Area north of the Bandshell"
+  },
+  {
+    "Prop_ID": "B073",
+    "Name": "Prospect Park",
+    "Location": "North area of Long Meadow"
+  },
+  {
+    "Prop_ID": "B073",
+    "Name": "Prospect Park",
+    "Location": "Vanderbilt Oval (area near Vanderbilt Street and Prospect Park South West)"
+  },
+  {
+    "Prop_ID": "B073",
+    "Name": "Prospect Park",
+    "Location": "Area north of Picnic House"
+  },
+  {
+    "Prop_ID": "B073",
+    "Name": "Prospect Park",
+    "Location": "Peristyle Lawn (near Parade Place and Parkside Avenue)"
+  },
+  {
+    "Prop_ID": "M144",
+    "Name": "East River Park*",
+    "Location": "Along FDR Drive at East 10th Street<br>*<a href=\"http://nycgovparks.org/sub_permits_and_applications/planning_an_event.html\">Special events permit</a> required"
+  },
+  {
+    "Prop_ID": "M028",
+    "Name": "Fort Washington Park",
+    "Location": "North of West 158th Street on the Hudson River"
+  },
+  {
+    "Prop_ID": "M042",
+    "Name": "Inwood Hill Park-Dyckman Fields",
+    "Location": "Dyckman Street & Hudson River"
+  },
+  {
+    "Prop_ID": "M056",
+    "Name": "Morningside Park",
+    "Location": "Morningside Avenue & West 121st Street"
+  },
+  {
+    "Prop_ID": "M104",
+    "Name": "Sunken Meadow waterfront",
+    "Location": "At the Sunken Meadow waterfront (specifically, the berm between Fields 27 and 30, and the waterfront behind Fields 31-40 between the pathway and the river."
+  },
+  {
+    "Prop_ID": "M072",
+    "Name": "Riverside Park",
+    "Location": "West 145th Street on the Hudson River"
+  },
+  {
+    "Prop_ID": "M077",
+    "Name": "St. Nicholas Park",
+    "Location": "St. Nicholas Terrace at West 128th Street"
+  },
+  {
+    "Prop_ID": "M077",
+    "Name": "St. Nicholas Park",
+    "Location": "St. Nicholas Avenue between West 133rd and 135th streets"
+  },
+  {
+    "Prop_ID": "M047",
+    "Name": "Thomas Jefferson Park",
+    "Location": "First Avenue between East 111th and 114th streets"
+  },
+  {
+    "Prop_ID": "M107",
+    "Name": "Wards Island",
+    "Location": "East River & Hell Gate (near the children's playground)"
+  },
+  {
+    "Prop_ID": "Q001",
+    "Name": "Alley Pond Park",
+    "Location": "Winchester Boulevard & Grand Central Parkway"
+  },
+  {
+    "Prop_ID": "Q001",
+    "Name": "Alley Pond Park",
+    "Location": "Alley Springfield: Springfield Boulevard and 76 Avenue"
+  },
+  {
+    "Prop_ID": "Q007",
+    "Name": "Bayswater Park",
+    "Location": "Beach Channel Drive and B32 Street"
+  },
+  {
+    "Prop_ID": "Q008",
+    "Name": "Brookville Park",
+    "Location": "Brookville Boulevard & South Conduit Avenue"
+  },
+  {
+    "Prop_ID": "Q099",
+    "Name": "Flushing Meadows Corona Park - Zoo Area",
+    "Location": "111th Street and 55th Avenue"
+  },
+  {
+    "Prop_ID": "Q021",
+    "Name": "Cunningham Park",
+    "Location": "Union Turnpike and Francis Lewis Boulevard"
+  },
+  {
+    "Prop_ID": "Q099",
+    "Name": "Flushing Meadows Corona Park",
+    "Location": "Off Lake West and off Lake East"
+  },
+  {
+    "Prop_ID": "Q015",
+    "Name": "Forest Park",
+    "Location": "Woodhaven Boulevard and Forest Park Drive"
+  },
+  {
+    "Prop_ID": "Q020",
+    "Name": "Highland Park",
+    "Location": "Upper Highland: Highland Blvd. and Vermont Place"
+  },
+  {
+    "Prop_ID": "Q162J",
+    "Name": "O'Donohue Park",
+    "Location": "Seagirt Blvd. between Beach 15 and Beach 17 Streets"
+  },
+  {
+    "Prop_ID": "Q406",
+    "Name": "Springfield Playground",
+    "Location": "147th Avenue and Springfield Boulevard"
+  },
+  {
+    "Prop_ID": "R005",
+    "Name": "Clove Lakes Park",
+    "Location": "Clove Road & Victory Boulevard "
+  },
+  {
+    "Prop_ID": "R030",
+    "Name": "Willowbrook Park ",
+    "Location": "Eaton Place Entrance"
+  },
+  {
+    "Prop_ID": "R031",
+    "Name": "Wolfe's Pond Park",
+    "Location": "Cornelia Avenue and Luten Avenue"
+  },
+  {
+    "Prop_ID": "R046",
+    "Name": "Midland Beach",
+    "Location": "Midland Avenue and Lincoln Avenue"
+  },
+  {
+    "Prop_ID": "Q005",
+    "Name": "Baisley Pond Park",
+    "Location": "Sutphin Boulevard & 125th Avenue"
+  },
+  {
+    "Prop_ID": "Q104",
+    "Name": "Queensbridge Park",
+    "Location": "Vernon Blvd and 41st Avenue"
+  },
+  {
+    "Prop_ID": "B088",
+    "Name": "Herbert Von King Park",
+    "Location": "mid-Park (entrance on Lafayette Ave.)"
+  },
+  {
+    "Prop_ID": "B126",
+    "Name": "Red Hook Park",
+    "Location": "Bay Street near Columbia Street"
+  },
+  {
+    "Prop_ID": "X344",
+    "Name": "Mill Pond Park",
+    "Location": "Exterior Street & 149th Street (Across from Gateway Mall)"
+  },
+  {
+    "Prop_ID": "X336",
+    "Name": "Hunts Point Riverside Park",
+    "Location": "Lafayette Ave. & Edgewater Road"
+  },
+  {
+    "Prop_ID": "X039",
+    "Name": "Pelham Bay Park",
+    "Location": "South Picnic Area - Stadium Avenue, behind the tennis courts"
+  },
+  { "Prop_ID": "B431", "Name": "Picnic Peninsula", "Location": "Pier 5" },
+  {
+    "Prop_ID": "B073",
+    "Name": "Prospect Park",
+    "Location": "Area near Lincoln Road and East Drive"
+  },
+  {
+    "Prop_ID": "B073",
+    "Name": "Prospect Park",
+    "Location": "Area south of the Picnic House"
+  },
+  {
+    "Prop_ID": "B073",
+    "Name": "Prospect Park",
+    "Location": "Parkside Lawn (near Parkside Avenue and Ocean Avenue)"
+  },
+  {
+    "Prop_ID": "B073",
+    "Name": "Prospect Park",
+    "Location": "Park Circle area near Parkside Avenue and Prospect Park Southwest/Coney Island Avenue"
+  },
+  {
+    "Prop_ID": "B073",
+    "Name": "Prospect Park",
+    "Location": "Area near the Well House"
+  },
+  { "Prop_ID": "B073", "Name": "Prospect Park", "Location": "The Nethermead" },
+  {
+    "Prop_ID": "M104",
+    "Name": "Lawn",
+    "Location": "At the lawn area djacent to the playground"
+  },
+  {
+    "Prop_ID": "M104",
+    "Name": "Waterfront",
+    "Location": "At the waterfront at the south end of the park"
+  },
+  {
+    "Prop_ID": "M104",
+    "Name": "Near the Bronx shore",
+    "Location": "Between the pedestrian pathway and river near the Bronx Shore section"
+  },
+  {
+    "Prop_ID": "M104",
+    "Name": "Harlem River Picnic Area",
+    "Location": "Harlem River Picnic Area near the ferry dock"
+  },
+  {
+    "Prop_ID": "M104",
+    "Name": "Flagpole Lawns",
+    "Location": "Flagpole Lawns, between Icahn Stadium and the Golf Center"
+  },
+  {
+    "Prop_ID": "B058",
+    "Name": "McCarren Park",
+    "Location": "Driggs Avenue (Across from Soccer Field and Softball Field)"
+  },
+  {
+    "Prop_ID": "B073",
+    "Name": "Prospect Park",
+    "Location": "Area south of the Bandshell"
+  },
+  {
+    "Prop_ID": "B073",
+    "Name": "Prospect Park",
+    "Location": "15th Street Lawn South (near 15th Street and Prospect Park West)"
+  },
+  {
+    "Prop_ID": "B073",
+    "Name": "Prospect Park",
+    "Location": "15th Street Lawn North (near 15th Street and Prospect Park West)"
+  },
+  {
+    "Prop_ID": "B073",
+    "Name": "Prospect Park",
+    "Location": "10th Avenue Lawn (at Prospect Park Southwest)"
+  },
+  {
+    "Prop_ID": "X307",
+    "Name": "Barretto Point Park",
+    "Location": "Barretto Street and Ryawa Ave"
+  },
+  {
+    "Prop_ID": "X008",
+    "Name": "Claremont Park",
+    "Location": "Morris Ave and Teller Ave"
+  },
+  {
+    "Prop_ID": "X118",
+    "Name": "Soundview Park",
+    "Location": "between the track and playground; close to Metcalf Ave between Seward Ave and Lafayette Ave "
+  },
+  {
+    "Prop_ID": "X002",
+    "Name": "River Park",
+    "Location": "Boston Road and 180 Street"
+  }
+]

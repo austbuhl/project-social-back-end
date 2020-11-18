@@ -114,18 +114,6 @@
     "Zip": "11209, 11228"
   },
   {
-    "Prop_ID": "B029",
-    "Name": "Eastern Parkway",
-    "Location": "Eastern Pkwy. bet. Grand Army Plaza and Ralph Ave.",
-    "Zip": "11213, 11216, 11225, 11233, 11238"
-  },
-  {
-    "Prop_ID": "B030",
-    "Name": "Eastern Parkway Extension",
-    "Location": "Eastern Pkwy. bet. Ralph Ave. and Bushwick Ave.",
-    "Zip": "11207, 11233"
-  },
-  {
     "Prop_ID": "B031",
     "Name": "Fidelity Triangle",
     "Location": "Monitor St. bet. Engert Ave. and Meeker Ave.",
@@ -393,7 +381,7 @@
     "Prop_ID": "B094",
     "Name": "Sgt. Joyce Kilmer Triangle",
     "Location": "E. 12 St., Kings Hwy., Quentin Rd.",
-    "Coords": [40.523270, -74.434150],
+    "Coords": [40.52327, -74.43415],
     "Zip": "11229"
   },
   {
@@ -406,7 +394,7 @@
     "Prop_ID": "B096",
     "Name": "Sgt. William Dougherty Playground",
     "Location": "Vandervoort Ave. bet. Cherry St. and Anthony St.",
-    "Coords": [32.305760, -80.952230],
+    "Coords": [32.30576, -80.95223],
     "Zip": "11222"
   },
   {
@@ -425,14 +413,14 @@
     "Prop_ID": "B099",
     "Name": "Lt. Joseph Petrosino Park",
     "Location": "16 Ave., New Utrecht Ave. bet. 70 St. and 71 St.",
-    "Coords": [40.191130, -75.136550],
+    "Coords": [40.19113, -75.13655],
     "Zip": "11228"
   },
   {
     "Prop_ID": "B100",
     "Name": "Seth Low Playground/ Bealin Square",
     "Location": "W. 12 St. bet. Bay Pkwy. and Ave. P",
-    "Coords": [40.608260, -73.986274],
+    "Coords": [40.60826, -73.986274],
     "Zip": "11204"
   },
   {
@@ -523,7 +511,7 @@
     "Prop_ID": "B114",
     "Name": "Msgr. McGolrick Park",
     "Location": "Russell St., Monitor St. bet. Nassau Ave. and Driggs Ave.",
-    "Coords": [28.660560, -77.131020],
+    "Coords": [28.66056, -77.13102],
     "Zip": "11222"
   },
   {
@@ -1046,7 +1034,7 @@
     "Prop_ID": "B210A",
     "Name": "John Allen Payne Playground",
     "Location": "3 Ave. bet. 64 St. and 65 St.",
-    "Coords": [40.639859, -74.023790],
+    "Coords": [40.639859, -74.02379],
     "Zip": "11220"
   },
   {
@@ -1457,7 +1445,7 @@
     "Prop_ID": "B224",
     "Name": "P.O. Reinaldo Salgado Playground",
     "Location": "Monroe St. to Madison St. between Patchen Ave. and Ralph Ave.",
-    "Coords": [40.687930, -73.925928],
+    "Coords": [40.68793, -73.925928],
     "Zip": "11221"
   },
   {
@@ -1687,7 +1675,7 @@
   {
     "Prop_ID": "B255L",
     "Name": "Captain John McKenna, IV Park",
-    "Coords": [40.652590, -73.977554],
+    "Coords": [40.65259, -73.977554],
     "Location": "Vanderbilt St. bet. E. 4 St. and E. 5 St.",
     "Zip": "11218"
   },
@@ -1839,7 +1827,7 @@
   {
     "Prop_ID": "B276",
     "Name": "J W Person Square",
-    "Coords": [40.693380, -73.973034],
+    "Coords": [40.69338, -73.973034],
     "Location": "Carlton Ave & Myrtle Ave",
     "Zip": null
   },
@@ -2500,7 +2488,7 @@
   {
     "Prop_ID": "B404",
     "Name": "East Flatbush Children's Playground",
-    "Coords": [40.663270, -73.926963],
+    "Coords": [40.66327, -73.926963],
     "Location": "E. 94 St. bet. Rutland Rd. and E. New York Ave.",
     "Zip": "11212"
   },
@@ -3502,7 +3490,7 @@
   {
     "Prop_ID": "M154",
     "Name": "Mathews-Palmer Playground",
-    "Coords": [40.761290, -73.992833],
+    "Coords": [40.76129, -73.992833],
     "Location": "W. 45 St. bet. 9 Ave. and 10 Ave.",
     "Zip": "10036"
   },
@@ -3649,7 +3637,7 @@
   {
     "Prop_ID": "M188A",
     "Name": "Abe Lebewohl Triangle",
-    "Coords": [40.730080, -73.987796],
+    "Coords": [40.73008, -73.987796],
     "Location": "E. 10 St. and Stuyvesant Pl.",
     "Zip": "10003"
   },
@@ -3946,7 +3934,7 @@
   {
     "Prop_ID": "M228",
     "Name": "Henry M. Jackson Playground",
-    "Coords": [40.714033, -73.981450],
+    "Coords": [40.714033, -73.98145],
     "Location": "Jackson St., Madison St., Henry St.",
     "Zip": "10002"
   },
@@ -4149,7 +4137,7 @@
   {
     "Prop_ID": "M271A",
     "Name": "Harlem RBI",
-    "Coords": [40.786650, -73.943833],
+    "Coords": [40.78665, -73.943833],
     "Location": "E. 100 St. to E. 101 St. bet. 2 Ave. and 1 Ave.",
     "Zip": "10029"
   },
@@ -4395,7 +4383,7 @@
   {
     "Prop_ID": "M404",
     "Name": "NYC AIDS Memorial Park at St. Vincent's Triangle",
-    "Coords": [40.737150, -74.001201],
+    "Coords": [40.73715, -74.001201],
     "Location": "7 Ave., W. 12 St., and Greenwich Ave.",
     "Zip": "10011"
   },
@@ -4839,7 +4827,7 @@
   {
     "Prop_ID": "Q065",
     "Name": "John Vincent Daniels Jr. Square",
-    "Coords": [40.744048, -73.913480],
+    "Coords": [40.744048, -73.91348],
     "Location": "43 Ave., Roosevelt Ave. bet. 50 St., 51 St. and 52 St.",
     "Zip": "11377"
   },
@@ -5496,7 +5484,7 @@
   {
     "Prop_ID": "Q217",
     "Name": "Lt. Frank McConnell Park",
-    "Coords": [40.693990, -73.827362],
+    "Coords": [40.69399, -73.827362],
     "Location": "94 Ave., Atlantic Ave. bet. Leffers Blvd. and 120 St.",
     "Zip": "11419"
   },
@@ -5527,7 +5515,7 @@
   {
     "Prop_ID": "Q220D",
     "Name": "Foch Sitting Area",
-    "Coords": [40.677600, -73.802339],
+    "Coords": [40.6776, -73.802339],
     "Location": "Van Wyck Exwy. Sr. Rd. E., 139 St., Fooch Blvd.",
     "Zip": "11436"
   },
@@ -5977,7 +5965,7 @@
   {
     "Prop_ID": "QZ808",
     "Name": "Latham Park-Greenstreet",
-    "Coords": [40.741930, -73.897935],
+    "Coords": [40.74193, -73.897935],
     "Location": "W s Bklynqns Exwy 43 Av Bet 66-67 Sts",
     "Zip": null
   },
@@ -6264,7 +6252,7 @@
   {
     "Prop_ID": "Q373",
     "Name": "Helen Marshall Playground",
-    "Coords": [40.765740, -73.870773],
+    "Coords": [40.76574, -73.870773],
     "Location": "100 St., 98 St. bet. 24 Ave. and 25 Ave.",
     "Zip": "11369"
   },
@@ -6834,7 +6822,7 @@
   {
     "Prop_ID": "Q496",
     "Name": "Park at Beach 108 Street",
-    "Coords": [40.583749, -73.832350],
+    "Coords": [40.583749, -73.83235],
     "Location": "Beach Channel Dr. bet. Beach 116 St. and Beach 108 St.",
     "Zip": "11694"
   },
@@ -6883,7 +6871,7 @@
   {
     "Prop_ID": "Q516",
     "Name": "Lt. Michael R. Davidson Playground",
-    "Coords": [40.748648, -73.913490],
+    "Coords": [40.748648, -73.91349],
     "Location": "39 Ave. bet. 50 St. and 51 St.",
     "Zip": "11377"
   },
@@ -7039,7 +7027,7 @@
   {
     "Prop_ID": "QZ393",
     "Name": "Chris Postiglione Triangle",
-    "Coords": [40.738100, -73.795349],
+    "Coords": [40.7381, -73.795349],
     "Location": "Horace Harding Expwy & 64 Av  & 174 St",
     "Zip": null
   },
@@ -7065,7 +7053,7 @@
   {
     "Prop_ID": "QZ90",
     "Name": "Nathaniel Schneider Triangle",
-    "Coords": [40.712743, -73.859380],
+    "Coords": [40.712743, -73.85938],
     "Location": "WoodhAvn Bl & Trotting Course Lane",
     "Zip": null
   },
@@ -8040,7 +8028,7 @@
   {
     "Prop_ID": "X010A",
     "Name": "Walter Gladwin Park",
-    "Coords": [40.845210, -73.895287],
+    "Coords": [40.84521, -73.895287],
     "Location": "E 175 St to E Tremont Av bet. 3 Av and Arthur Ave",
     "Zip": "10457"
   },
@@ -8609,7 +8597,7 @@
   {
     "Prop_ID": "X116",
     "Name": "Rev J Polite Playground",
-    "Coords": [40.827210, -73.896852],
+    "Coords": [40.82721, -73.896852],
     "Location": "Rev James Polite Av to Interval Av bet. E 167 St and Home St",
     "Zip": "10459"
   },
@@ -8806,7 +8794,7 @@
   {
     "Prop_ID": "X148D",
     "Name": "Walton Slope",
-    "Coords": [40.845120, -73.911627],
+    "Coords": [40.84512, -73.911627],
     "Location": "Walton Av, E 174 St, Below Grand Concourse",
     "Zip": "10453, 10457"
   },
@@ -8922,7 +8910,7 @@
   {
     "Prop_ID": "X150I",
     "Name": "Cooney Grauer Field",
-    "Coords": [40.880230, -73.901260],
+    "Coords": [40.88023, -73.90126],
     "Location": "Bailey Ave. bet. W. 233 St. and W. 234 S",
     "Zip": "10463"
   },
@@ -9352,7 +9340,7 @@
   {
     "Prop_ID": "X243",
     "Name": "Estella Diggs Park",
-    "Coords": [40.828964, -73.906130],
+    "Coords": [40.828964, -73.90613],
     "Location": "3 Av to Fulton Av bet. E 167 St and E 168 St ",
     "Zip": "10456"
   },
@@ -9439,7 +9427,7 @@
   {
     "Prop_ID": "X261",
     "Name": "West Bronx Recreation Center",
-    "Coords": [40.844010, -73.918978],
+    "Coords": [40.84401, -73.918978],
     "Location": "Jesup Av bet. W 172 St and Cross Bronx Exwy",
     "Zip": "10452"
   },
@@ -9728,7 +9716,7 @@
   {
     "Prop_ID": "X362",
     "Name": "Catherine Scott Promenade",
-    "Coords": [40.855002, -73.791380],
+    "Coords": [40.855002, -73.79138],
     "Location": "City Island Ave., City Island Bridge",
     "Zip": "10464"
   },
