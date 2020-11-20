@@ -13,6 +13,12 @@ class Api::V1::EventsController < ApplicationController
 
   def create
     event = Event.create(event_params)
+    park = Park.find(event_params[:park_id])
+    params[:event][:activities].each do |activity|
+      foundActivity = Activity.find_by(name: activity, park: park)
+      EventActivity.create(event: event, activity: foundActivity)
+      byebug
+    end
     render json: event
   end
 
@@ -31,7 +37,7 @@ class Api::V1::EventsController < ApplicationController
   private
   
   def event_params
-    params.require(:event).permit(:name, :description, :num_of_people, :datetime, :park_id)
+    params.require(:event).permit(:name, :description, :num_of_people, :date, :time, :park_id, activities:[:name])
   end
 
 end
