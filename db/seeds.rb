@@ -91,17 +91,18 @@ require 'csv'
 # Activity.destroy_all
 
 
-User.destroy_all
+# User.destroy_all
 Comment.destroy_all
+Event.destroy_all
 
-user1 = User.create(username: 'test', password: 'test')
-10.times do 
-  User.create(username: Faker::Internet.username, password: Faker::Internet.password)
-end
-
-# 50.times do 
-#   Event.create(name: Faker::Coffee.blend_name , description: Faker::Coffee.notes , num_of_people: rand(20), datetime: DateTime.now + (rand * 21), park: Park.all.sample)
+# user1 = User.create(username: 'test', password: 'test')
+# 10.times do 
+#   User.create(username: Faker::Internet.username, password: Faker::Internet.password)
 # end
+
+50.times do 
+  Event.create(name: Faker::Coffee.blend_name , description: Faker::Coffee.notes , num_of_people: rand(20), date: Date.today + (rand * 21), time:Time.at(rand * Time.now.to_i).strftime('%H:%M'), park: Park.all.sample)
+end
 
 # 50.times do 
 #   Activity.create(name: activities.sample, park: Park.all.sample)
