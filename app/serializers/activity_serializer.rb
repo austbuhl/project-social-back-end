@@ -1,4 +1,4 @@
 class ActivitySerializer < ActiveModel::Serializer
-  attributes :id, :name, :addl_detail, :park_id
+  attributes :id, :name, :addl_detail, :park
   belongs_to :park
 end

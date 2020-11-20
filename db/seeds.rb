@@ -3,6 +3,8 @@ require 'byebug'
 require 'geocoder'
 require 'json'
 require 'csv'
+EventActivity.destroy_all
+UserEvent.destroy_all
 Activity.destroy_all
 
 # File.open("output.json", "w") do |f|     
@@ -263,13 +265,13 @@ zoos.each do |zoo|
 end
 
 
-# 25.times do 
-#   EventActivity.create(event: Event.all.sample, activity: Activity.all.sample )
-# end
+250.times do 
+  EventActivity.create(event: Event.all.sample, activity: Activity.all.sample )
+end
 
-# 50.times do 
-#   UserEvent.create(user: User.all.sample, event: Event.all.sample)
-# end
+250.times do 
+  UserEvent.create(user: User.all.sample, event: Event.all.sample)
+end
 
 # 50.times do 
 #   Comment.create(user: User.all.sample, event: Event.all.sample, text: Faker::Food.description)
