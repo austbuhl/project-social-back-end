@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
+
+      post '/events/:id/rsvp', to: 'events#rsvp'
+
       resources :events, except: [:new, :edit]
       
       get '/users', to: 'users#profile'
@@ -8,6 +11,7 @@ Rails.application.routes.draw do
       post '/login', to: 'auth#create'
 
       get '/parks', to: 'parks#index'
+
 
       get '/comments', to: 'comments#index'
       post '/comments', to: 'comments#create'

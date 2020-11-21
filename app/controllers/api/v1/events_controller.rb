@@ -17,7 +17,6 @@ class Api::V1::EventsController < ApplicationController
     params[:event][:activities].each do |activity|
       foundActivity = Activity.find_by(name: activity, park: park)
       EventActivity.create(event: event, activity: foundActivity)
-      byebug
     end
     render json: event
   end
@@ -33,6 +32,13 @@ class Api::V1::EventsController < ApplicationController
     event.destroy
     render json: event
   end
+
+  def rsvp
+    event = Event.find(params[:event][:event_id])
+    UserEvent.find_or_create_by(event: event, user_id: current_user.id)
+    render json: event
+  end
+
   
   private
   

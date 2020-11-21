@@ -3,6 +3,7 @@ class EventSerializer < ActiveModel::Serializer
 
   has_many :comments
   has_many :activities, through: :event_activities
+  has_many :users, through: :user_events
   # has_many :users, through: :comments
   # belongs_to :park
   # has_many :event_activities
