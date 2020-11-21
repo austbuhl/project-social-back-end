@@ -12,7 +12,6 @@ Rails.application.routes.draw do
 
       get '/parks', to: 'parks#index'
 
-
       get '/comments', to: 'comments#index'
       post '/comments', to: 'comments#create'
       delete '/comments/:id', to: 'comments#destroy'

@@ -1,5 +1,5 @@
 class ParkSerializer < ActiveModel::Serializer
-  attributes :id, :name, :latitude, :longitude, :website, :nycParkId, :location, :activities, :events
+  attributes :id, :name, :latitude, :longitude, :website, :nycParkId, :location, :activities
   has_many :activities
-  has_many :events
+  # has_many :events
 end
