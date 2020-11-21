@@ -1,4 +1,5 @@
-class EventSerializer < ActiveModel::Serializer
+class EventSerializer
+  include FastJsonapi::ObjectSerializer
   attributes :id, :name, :description, :num_of_people, :comments, :date, :time, :park_id
 
   has_many :comments

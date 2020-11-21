@@ -3,7 +3,11 @@ class Api::V1::ParksController < ApplicationController
   
   def index
     parks = Park.all
-    render json: parks
+    options = {
+      include: [:activities]
+    }
+    render json: ParkSerializer.new(parks, options).serializable_hash
+    # render json: parks
   end
 
 end
