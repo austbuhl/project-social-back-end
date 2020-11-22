@@ -3,12 +3,12 @@ class Api::V1::CommentsController < ApplicationController
   
   def index
     comments = Comment.all
-    render json: comments
+    render json: CommentSerializer.new(comments)
   end
 
   def create
     comment = Comment.create(user_id: current_user.id, event_id: params[:event_id], text: params[:text])
-    render json: comment
+    render json: CommentSerializer.new(comment)
   end
 
   def destroy

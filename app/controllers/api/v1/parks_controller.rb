@@ -6,8 +6,7 @@ class Api::V1::ParksController < ApplicationController
     options = {
       include: [:activities]
     }
-    render json: ParkSerializer.new(parks, options).serializable_hash
-    # render json: parks
+    render json: ParkSerializer.new(parks, options)
   end
 
 end
