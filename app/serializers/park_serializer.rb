@@ -1,5 +1,6 @@
-class ParkSerializer < ActiveModel::Serializer
-  attributes :id, :name, :latitude, :longitude, :website, :nycParkId, :location, :activities
+class ParkSerializer
+  include FastJsonapi::ObjectSerializer
+  attributes :id, :name, :latitude, :longitude, :website, :nycParkId, :location
   has_many :activities
-  # has_many :events
+  has_many :events
 end

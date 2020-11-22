@@ -1,5 +1,6 @@
-class CommentSerializer < ActiveModel::Serializer
-  attributes :id, :text, :created_at, :username
+class CommentSerializer
+  include FastJsonapi::ObjectSerializer
+  attributes :id, :text, :created_at
   belongs_to :event
   belongs_to :user
 

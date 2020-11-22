@@ -3,12 +3,15 @@ class Api::V1::EventsController < ApplicationController
   
   def index
     events = Event.all
-    render json: events
+    # options = {
+    #   include: [:comments]
+    # }
+    render json: EventSerializer.new(events)
   end
 
   def show
     event = Event.find(params[:id])
-    render json: event
+    render EventSerializer.new(event)
   end
 
   def create
@@ -18,7 +21,7 @@ class Api::V1::EventsController < ApplicationController
       foundActivity = Activity.find_by(name: activity, park: park)
       EventActivity.create(event: event, activity: foundActivity)
     end
-    render json: event
+    render json: EventSerializer.new(event)
   end
 
   def update
@@ -36,7 +39,7 @@ class Api::V1::EventsController < ApplicationController
   def rsvp
     event = Event.find(params[:event][:event_id])
     UserEvent.find_or_create_by(event: event, user_id: current_user.id)
-    render json: event
+    render json: EventSerializer.new(event)
   end
 
   
