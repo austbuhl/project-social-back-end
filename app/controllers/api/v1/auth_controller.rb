@@ -6,7 +6,10 @@ class Api::V1::AuthController < ApplicationController
       
       if user && user.authenticate(params[:password])
           token = encode_token({user_id: user.id})
-          render json: {user: user, jwt: token}
+          options = {
+            meta: token
+          }
+          render json: UserSerializer.new(user, options)
       else
           render json: { message: 'Invalid username or password' }
       end

@@ -2,7 +2,7 @@ class Api::V1::EventsController < ApplicationController
   skip_before_action :authorized, only: [:index]
   
   def index
-    events = Event.all
+    events = Event.includes(:park, :comments, :users, :activities).all
     # options = {
     #   include: [:comments]
     # }

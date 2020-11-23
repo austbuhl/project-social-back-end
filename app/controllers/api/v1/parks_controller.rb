@@ -2,7 +2,7 @@ class Api::V1::ParksController < ApplicationController
   skip_before_action :authorized
   
   def index
-    parks = Park.all
+    parks = Park.includes(:activities, :events).all
     options = {
       include: [:activities]
     }

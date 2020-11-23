@@ -6,7 +6,7 @@ class Api::V1::UsersController < ApplicationController
   end
 
   def index
-    users = User.all
+    users = User.includes(:comments, :events).all
     render json: UserSerializer.new(users)
   end
 

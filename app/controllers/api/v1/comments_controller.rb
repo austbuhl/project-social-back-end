@@ -2,7 +2,7 @@ class Api::V1::CommentsController < ApplicationController
   skip_before_action :authorized, only: [:index]
   
   def index
-    comments = Comment.all
+    comments = Comment.includes(:event, :user).all
     render json: CommentSerializer.new(comments)
   end
 
