@@ -6,6 +6,11 @@ Rails.application.routes.draw do
 
       resources :events, except: [:new, :edit]
       
+      get '/users/friends', to: 'friendship#index'
+      post '/users/friends', to: 'friendship#create'
+      patch '/users/friends', to: 'friendship#update'
+      delete '/users/friends', to: 'friendship#destroy'
+
       get '/users/auth', to: 'users#profile'
       get '/users', to: 'users#index'
       post '/users', to: 'users#create'
