@@ -9,7 +9,7 @@ Rails.application.routes.draw do
       get '/users/friends', to: 'friendship#index'
       post '/users/friends', to: 'friendship#create'
       patch '/users/friends', to: 'friendship#update'
-      delete '/users/friends', to: 'friendship#destroy'
+      delete '/users/friends/:id', to: 'friendship#destroy'
 
       get '/users/auth', to: 'users#profile'
       get '/users', to: 'users#index'

@@ -10,6 +10,8 @@ attribute :friend_name do |friendship|
   friendship.friend.username
 end
 
+cache_options enabled: true, cache_length: 12.hours
+
   # belongs_to :user
   # belongs_to :friend, class_name: "User"
 end
