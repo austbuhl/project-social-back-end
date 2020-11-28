@@ -3,7 +3,6 @@ class Friendship < ApplicationRecord
   belongs_to :friend, class_name: "User"
 
   def self.friend_request(user_id, friend_id)
-    byebug
     Friendship.find_or_create_by(user_id: user_id, friend_id: friend_id, status: 'pending')
     Friendship.find_or_create_by(user_id: friend_id, friend_id: user_id, status: 'pending')
   end

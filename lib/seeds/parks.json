@@ -20,6 +20,7 @@
   {
     "Prop_ID": "B006",
     "Name": "Beattie Square",
+    "Coords": [40.69661135578669, -73.93450820048989],
     "Location": "Broadway, Stuyvesant Ave., Vernon Ave.",
     "Zip": "11221"
   },
@@ -164,6 +165,7 @@
   {
     "Prop_ID": "B041",
     "Name": "Grant Gore",
+    "Coords": [40.67700477942966, -73.95278973118924],
     "Location": "Bedford Ave., Rodgers Ave., Bergen St.",
     "Zip": "11216"
   },
@@ -578,6 +580,7 @@
   {
     "Prop_ID": "B126A",
     "Name": "Todd Triangle",
+    "Coords": [40.67235546111345, -74.00869023119144],
     "Location": "Halleck St. at Columbia St.",
     "Zip": "11231"
   },
@@ -849,6 +852,7 @@
   {
     "Prop_ID": "B169",
     "Name": "Coney Island Beach & Boardwalk",
+    "Coords": [40.57235838539998, -73.97945854482117],
     "Location": "Corbin Pl. to W. 37 St., Boardwalk",
     "Zip": "11224, 11235"
   },
@@ -903,46 +907,10 @@
     "Zip": "11234"
   },
   {
-    "Prop_ID": "B178",
-    "Name": "Flatbush Malls",
-    "Location": "Glenwood Rd. bet. E. 23 St. and Coney Island Ave.",
-    "Zip": "11210, 11230"
-  },
-  {
-    "Prop_ID": "B179",
-    "Name": "Flatbush Malls",
-    "Location": "E. 17 St. bet. Foster Ave. and Ave. H",
-    "Zip": "11230"
-  },
-  {
-    "Prop_ID": "B180",
-    "Name": "Flatbush Mall",
-    "Location": "E. 17 St., South of Ave. H",
-    "Zip": "11230"
-  },
-  {
-    "Prop_ID": "B182",
-    "Name": "Howard Malls",
-    "Location": "Blake Ave., Tapscott St., Howard Ave.",
-    "Zip": "11212"
-  },
-  {
-    "Prop_ID": "B184",
-    "Name": "Avenue R Mall",
-    "Location": "Ave. R from E. 7 St. To Coney Island Ave.",
-    "Zip": "11223"
-  },
-  {
     "Prop_ID": "B190",
     "Name": "Barone Triangle",
     "Location": "Ave. U, E. 71 St., Veterans Ave.",
     "Zip": "11234"
-  },
-  {
-    "Prop_ID": "B191",
-    "Name": "Park",
-    "Location": "New Utrecht Ave., 45 St., Ft Hamilton Pkwy.",
-    "Zip": "11219"
   },
   {
     "Prop_ID": "B192",
@@ -980,12 +948,6 @@
     "Name": "Mellett Playground",
     "Location": "Avenue V bet. E. 13 St. and E. 14 St.",
     "Zip": "11229"
-  },
-  {
-    "Prop_ID": "B198",
-    "Name": "Kings Highway Malls",
-    "Location": "Kings Highway between 25 St. and 98 St.",
-    "Zip": "11203, 11210, 11212, 11229, 11234"
   },
   {
     "Prop_ID": "B200",
@@ -1058,6 +1020,7 @@
   {
     "Prop_ID": "B210G",
     "Name": "Triangle Three Sixteen",
+    "Coords": [40.66788619492248, -73.99492184653865],
     "Location": "3 Ave. bet. Hamilton Ave. and 16 St.",
     "Zip": "11215"
   },
@@ -1085,12 +1048,6 @@
     "Name": "Dan Ross Playground",
     "Location": "7 Ave. bet. 81 St. and 82 St.",
     "Zip": "11209"
-  },
-  {
-    "Prop_ID": "B210V",
-    "Name": "Park",
-    "Location": "Dahlgreen Pl. bet. Exit 17 and Ft. Hill Pl.",
-    "Zip": "11228"
   },
   {
     "Prop_ID": "B210W",
@@ -1365,6 +1322,7 @@
   {
     "Prop_ID": "B223PA",
     "Name": "Rodney Park Center",
+    "Coords": [40.708946050987265, -73.95673286186407],
     "Location": "Broadway, Rodney St., S. 5 St.",
     "Zip": "11211"
   },
@@ -1377,6 +1335,7 @@
   {
     "Prop_ID": "B223PC",
     "Name": "Rodney Playground South",
+    "Coords": [40.7102493299321, -73.95597194651859],
     "Location": "Rodney St., S. 3 St. and S. 4 St.",
     "Zip": "11211"
   },
@@ -1457,6 +1416,7 @@
   {
     "Prop_ID": "B226",
     "Name": "Mt. Carmel Triangle",
+    "Coords": [40.71615701926817, -73.95164701582574],
     "Location": "Union Ave., Meeker Ave., Jackson St.",
     "Zip": "11211"
   },
@@ -1541,6 +1501,7 @@
   {
     "Prop_ID": "B242",
     "Name": "Meucci Triangle",
+    "Coords": [40.59570994847703, -73.9831492619175],
     "Location": "Ave U, 86 St.  and W. 12 St.",
     "Zip": "11223"
   },
@@ -1684,18 +1645,6 @@
     "Name": "Park",
     "Location": "Sherman St. at Ocean Pkwy.",
     "Zip": "11218"
-  },
-  {
-    "Prop_ID": "B255N",
-    "Name": "Park",
-    "Location": "Ocean Pkwy. at E. 8 St.",
-    "Zip": "11218"
-  },
-  {
-    "Prop_ID": "B255O",
-    "Name": "Park",
-    "Location": "18 St. bet. 10 Ave. and Prospect Park West",
-    "Zip": "11215"
   },
   {
     "Prop_ID": "B256",
@@ -2341,12 +2290,14 @@
   {
     "Prop_ID": "B378",
     "Name": "University Place",
+    "Coords": [40.69118830902478, -73.98169554652743],
     "Location": "Flatbush Ave. at Fleet St.",
     "Zip": "11201"
   },
   {
     "Prop_ID": "B379",
     "Name": "Coney Island Creek Park",
+    "Coords": [40.58129598256286, -74.00496497675387],
     "Location": "Bay View Ave. between Sea Gate Ave. and W. 33 St.",
     "Zip": "11224"
   },
@@ -2563,14 +2514,9 @@
   {
     "Prop_ID": "B536",
     "Name": "North 5th Street Pier and Park",
+    "Coords": [40.72042862327251, -73.96417734651362],
     "Location": "Kent Ave. bet. N. 4 St. and N. 7 St.",
     "Zip": "11211"
-  },
-  {
-    "Prop_ID": "B537",
-    "Name": "Park",
-    "Location": "Grand Ave. bet. Putnam Ave. and Fulton St.",
-    "Zip": "11238"
   },
   {
     "Prop_ID": "BZ252",
@@ -2599,6 +2545,7 @@
   {
     "Prop_ID": "B591",
     "Name": "Schaefer Landing",
+    "Coords": [40.70938321140624, -73.96961568858882],
     "Location": "East River and Kent Ave. between S. 9th St. and S. 10 St.",
     "Zip": "11211"
   },
@@ -2624,18 +2571,21 @@
   {
     "Prop_ID": "BT10",
     "Name": "Holocaust Memorial Park",
+    "Coords": [40.58277619816136, -73.95352236985372],
     "Location": "Shore Blvd. and Emmons Ave.. Neptune Ave.",
     "Zip": "11235"
   },
   {
     "Prop_ID": "BT15",
     "Name": "Bush Terminal Park",
+    "Coords": [40.65341076941135, -74.02001650051022],
     "Location": "Marginal St. bet. 44 St. and 50 St.",
     "Zip": "11232"
   },
   {
     "Prop_ID": "BT16",
     "Name": "St. Mark's Playground",
+    "Coords": [40.67540323697873, -73.94005407895084],
     "Location": "St. Mark's Ave. bet. Kingston Ave. and Albany St.",
     "Zip": "11213"
   },
@@ -2648,6 +2598,7 @@
   {
     "Prop_ID": "BZ239",
     "Name": "Schloss Triangle",
+    "Coords": [40.583316844663926, -73.95704644657849],
     "Location": "Neptune Ave & East 12th St",
     "Zip": null
   },
@@ -2661,12 +2612,14 @@
   {
     "Prop_ID": "BZ55",
     "Name": "Ascenzi Square",
+    "Coords": [40.714960052485495, -73.95678751582639],
     "Location": "Metropolitan Avenue, Roebling St, North ",
     "Zip": null
   },
   {
     "Prop_ID": "BZ80",
     "Name": "Jewel Square",
+    "Coords": [40.682566589773266, -73.90053344968656],
     "Location": "Williams Ave, Alabama Ave, Jamaica Ave, and Fulton St",
     "Zip": null
   },
@@ -2687,12 +2640,6 @@
     "Name": "Annunciation Playground",
     "Location": "Convent and Amsterdam Av, W 135 St",
     "Zip": "10031"
-  },
-  {
-    "Prop_ID": "M004",
-    "Name": "Allen Mall One",
-    "Location": "E Houston St, E Broadway",
-    "Zip": "10002"
   },
   {
     "Prop_ID": "M005",
@@ -2811,6 +2758,7 @@
   {
     "Prop_ID": "M024",
     "Name": "Dorrance Brooks Square",
+    "Coords": [40.818307805191765, -73.94746326974266],
     "Location": "W 136 St To W 137 St, St Nicholas Av, Edgecom Av",
     "Zip": "10030"
   },
@@ -2926,6 +2874,7 @@
   {
     "Prop_ID": "M043",
     "Name": "Isham Park",
+    "Coords": [40.86954271405424, -73.9191485703475],
     "Location": "Broadway, Isham St, Inwood Pk",
     "Zip": "10034"
   },
@@ -3040,6 +2989,7 @@
   {
     "Prop_ID": "M063",
     "Name": "Gertrude Ederle Recreation Center",
+    "Coords": [40.771917977636434, -73.9885333851095],
     "Location": "W. 59 St., W. 60 St., bet. Amsterdam Ave. and W. End Ave.",
     "Zip": "10023"
   },
@@ -3118,12 +3068,6 @@
     "Zip": "10065"
   },
   {
-    "Prop_ID": "M080",
-    "Name": "Schiff Mall",
-    "Location": "Delancey St bet. Bowery and Essex St",
-    "Zip": "10002"
-  },
-  {
     "Prop_ID": "M081",
     "Name": "Carl Schurz Park",
     "Location": "East End Av To East River, E 84 St To E 90 St",
@@ -3174,12 +3118,14 @@
   {
     "Prop_ID": "M090",
     "Name": "Lafayette Square",
+    "Coords": [40.803964241360234, -73.9581268467131],
     "Location": "Manhattan Av, W 114 St, Morningside Av",
     "Zip": "10026"
   },
   {
     "Prop_ID": "M091",
     "Name": "Bennett Rest",
+    "Coords": [40.85791917027638, -73.93336550041373],
     "Location": "Henry Hudson Pkwy, Cabrini Blvd, at W186 St",
     "Zip": "10033, 10040"
   },
@@ -3195,36 +3141,6 @@
     "Coords": [40.759012, -73.985022],
     "Location": "Broadway, W. 46 St. To W. 47 St., 7 Ave.",
     "Zip": "10036"
-  },
-  {
-    "Prop_ID": "M094",
-    "Name": "Broadway Malls",
-    "Location": "Broadway, Columbus Circle To W 110 St",
-    "Zip": "10023, 10024, 10025"
-  },
-  {
-    "Prop_ID": "M094A",
-    "Name": "Broadway Malls",
-    "Location": "Broadway, W 110 StTo W 122 St",
-    "Zip": "10025, 10027"
-  },
-  {
-    "Prop_ID": "M095",
-    "Name": "Broadway Malls",
-    "Location": "Broadway, W. 135 St. To W. 156 St.",
-    "Zip": "10031, 10032"
-  },
-  {
-    "Prop_ID": "M095A",
-    "Name": "Broadway Malls",
-    "Location": "Broadway, W 156 St To W 168 St",
-    "Zip": "10032"
-  },
-  {
-    "Prop_ID": "M096",
-    "Name": "Adam Clayton Powell Jr. Malls",
-    "Location": "7 Ave., W. 110 St. To W. 152 St.",
-    "Zip": "10026, 10027, 10030, 10039"
   },
   {
     "Prop_ID": "M097",
@@ -3321,6 +3237,7 @@
   {
     "Prop_ID": "M108Q1",
     "Name": "Andrew Haswell Green Park",
+    "Coords": [40.759876413940596, -73.95731500046006],
     "Location": "E. River bet. E. 59 St. and E. 63 St.",
     "Zip": "10022, 10065"
   },
@@ -3329,18 +3246,6 @@
     "Name": "Sutton Place Park",
     "Location": "E. River bet. E. 56 St. and E. 57 St.",
     "Zip": "10022"
-  },
-  {
-    "Prop_ID": "M108T",
-    "Name": "East River Walk",
-    "Location": "FDR Drive, E 63 St. To E 81 St.",
-    "Zip": "10021, 10028, 10065, 10075"
-  },
-  {
-    "Prop_ID": "M108T01",
-    "Name": "East River Esplanade",
-    "Location": "FDR Drive, E 90 St. To E 125 St.",
-    "Zip": "10028, 10029, 10035, 10128"
   },
   {
     "Prop_ID": "M110",
@@ -3436,12 +3341,14 @@
   {
     "Prop_ID": "M130",
     "Name": "Recreation Center 54",
+    "Coords": [40.75671752475909, -73.9651389464965],
     "Location": "E. 54 St. bet. 1 Ave. and 2 Ave.",
     "Zip": "10022"
   },
   {
     "Prop_ID": "M131",
     "Name": "Hansborough Recreation Center",
+    "Coords": [40.81321021153622, -73.9394781311248],
     "Location": "W. 134 St., Lenox Terrace Pl.",
     "Zip": "10037"
   },
@@ -3791,12 +3698,6 @@
     "Name": "Harlem River Park",
     "Location": "Lexington Ave., E. 130 St. to E. 131 St.",
     "Zip": "10037"
-  },
-  {
-    "Prop_ID": "M208D",
-    "Name": "Harlem River Park",
-    "Location": "E. 128 St., 2 Ave., 3 Ave., Harlem River Drive",
-    "Zip": "10035"
   },
   {
     "Prop_ID": "M208E",
@@ -4193,6 +4094,7 @@
   {
     "Prop_ID": "M284",
     "Name": "Convent Garden",
+    "Coords": [40.82858913284049, -73.94264401577249],
     "Location": "Convent Ave., 151 St. and St. Nicholas Ave.",
     "Zip": "10031"
   },
@@ -4267,6 +4169,7 @@
   {
     "Prop_ID": "M302",
     "Name": "Dream Street Park",
+    "Coords": [40.80313787766663, -73.93395081681514],
     "Location": "E. 124 St.bet. 2 Ave. and 3 Ave.",
     "Zip": "10035"
   },
@@ -4291,12 +4194,14 @@
   {
     "Prop_ID": "M318",
     "Name": "Merchant's House Museum",
+    "Coords": [40.72789232344727, -73.99229711582015],
     "Location": "E. 4 St. bet. Bowery and Lafayette St.",
     "Zip": "10003"
   },
   {
     "Prop_ID": "M321",
     "Name": "Lower East Side Playground",
+    "Coords": [40.72982808057828, -73.98239826137929],
     "Location": "E. 12 St., E. 11 St. bet. 1 Ave. and Ave. A",
     "Zip": "10009"
   },
@@ -4365,6 +4270,7 @@
   {
     "Prop_ID": "M395",
     "Name": "Fiorello La Guardia Park",
+    "Coords": [40.72875299479314, -73.99827027349217],
     "Location": "La Guardia Pl. bet. W. 3 St. and Bleecker St.",
     "Zip": "10012"
   },
@@ -4390,24 +4296,21 @@
   {
     "Prop_ID": "MT01",
     "Name": "Mannahatta Park",
+    "Coords": [40.705037899397034, -74.00673676543713],
     "Location": "Wall St bet. Water St. and South St.",
     "Zip": "10005"
   },
   {
-    "Prop_ID": "MT04",
-    "Name": "Coenties Slip",
-    "Location": "Coenties Slip bet. Pearl St. and Water St.",
-    "Zip": "10004"
-  },
-  {
     "Prop_ID": "MZ02",
     "Name": "Spring Street Park",
+    "Coords": [40.725277400744, -74.00441878883882],
     "Location": "6 Ave & Spring St",
     "Zip": null
   },
   {
     "Prop_ID": "MZ06",
     "Name": "Little Red Square",
+    "Coords": [40.72981322277415, -74.00211803116429],
     "Location": "Bleecker St & Ave Of Americas",
     "Zip": null
   },
@@ -4549,12 +4452,14 @@
   {
     "Prop_ID": "Q018",
     "Name": "Gordon Triangle",
+    "Coords": [40.74933411397757, -73.95190798512027],
     "Location": "10 St., Vernon Blvd. bet. 44 Rd. and 45 Ave.",
     "Zip": "11101"
   },
   {
     "Prop_ID": "Q019",
     "Name": "Garlinge Triangle",
+    "Coords": [40.72848485612133, -73.89088491581984],
     "Location": "Grand Ave., 57 Ave. bet. 72 Pl and Mazeau St.",
     "Zip": "11378"
   },
@@ -4637,12 +4542,6 @@
     "Zip": "11368"
   },
   {
-    "Prop_ID": "Q030",
-    "Name": "Midland Malls",
-    "Location": "Midland Pkwy. bet. Surrey Place and Hillside Ave.",
-    "Zip": "11432"
-  },
-  {
     "Prop_ID": "Q031",
     "Name": "Lawrence Virgilio Playground",
     "Location": "52 St., Woodside Ave. bet. 39 Rd. and 39 Dr.",
@@ -4659,12 +4558,6 @@
     "Name": "McKenna Triangle",
     "Location": "Jackson Ave.,  Court Sq., 45 Ave.",
     "Zip": "11101"
-  },
-  {
-    "Prop_ID": "Q033",
-    "Name": "Mall Eighteen",
-    "Location": "18 Ave. bet. 126 St. and 127 St.",
-    "Zip": "11356"
   },
   {
     "Prop_ID": "Q034",
@@ -4689,12 +4582,6 @@
     "Name": "Benninger Playground",
     "Location": "Madison St. bet. 60 Pl. and Fresh Pond Rd.",
     "Zip": "11385"
-  },
-  {
-    "Prop_ID": "Q040",
-    "Name": "Elmjack Mall",
-    "Location": "75 St. bet. 37 Ave. and Woodside Ave.",
-    "Zip": "11372, 11373"
   },
   {
     "Prop_ID": "Q041",
@@ -4803,12 +4690,14 @@
   {
     "Prop_ID": "Q060",
     "Name": "Nine Heroes Plaza",
+    "Coords": [40.745723649049786, -73.88898680046672],
     "Location": "Broadway, 41 Ave., 76 St.",
     "Zip": "11373"
   },
   {
     "Prop_ID": "Q061",
     "Name": "Steinmann Triangle",
+    "Coords": [40.74547846324482, -73.90918261581183],
     "Location": "Skillman Ave., Roosevelt Ave. bet. 55 St. and 56 St.",
     "Zip": "11377"
   },
@@ -4821,6 +4710,7 @@
   {
     "Prop_ID": "Q063",
     "Name": "Luke J. Lang Square",
+    "Coords": [40.719236996428, -73.90248466185942],
     "Location": "Fresh Pond Rd., 59 Rd. and 61 St.",
     "Zip": "11378"
   },
@@ -4924,6 +4814,7 @@
   {
     "Prop_ID": "Q079",
     "Name": "Wellbrock Triangle",
+    "Coords": [40.6790142528668, -73.83368106187814],
     "Location": "109 Ave., 106 St., Rockaway Blvd.",
     "Zip": "11417"
   },
@@ -4950,12 +4841,6 @@
     "Name": "Grand Central Parkway",
     "Location": "Union Tp., Park Drive East to Nassau County Line",
     "Zip": "11004, 11005, 11362, 11364, 11367, 11423, 11426, 1"
-  },
-  {
-    "Prop_ID": "Q084A",
-    "Name": "Grand Central Parkway Extension",
-    "Location": "Astoria Blvd. and 48 St. to Union Tp., Park Drive East.",
-    "Zip": "11103, 11367, 11368, 11369, 11370, 11371, 11375"
   },
   {
     "Prop_ID": "Q084B",
@@ -4998,12 +4883,6 @@
     "Name": "Tudor Park",
     "Location": "N. Conduit Ave., 133 Ave. bet. 80 St. and 88 St.",
     "Zip": "11417"
-  },
-  {
-    "Prop_ID": "Q094D",
-    "Name": "Gemini Fields",
-    "Location": "S. Conduit Ave.,  Linden Blvd.,  149 Ave., bet. 79 St.  and 85 St.",
-    "Zip": "11414"
   },
   {
     "Prop_ID": "Q095",
@@ -5204,6 +5083,7 @@
   {
     "Prop_ID": "Q133A",
     "Name": "Hempstead Ballfield",
+    "Coords": [40.71105711137248, -73.72876446186307],
     "Location": "Hempstead Ave. bet. Cross Is. Pkwy. and 225 St.",
     "Zip": "11429"
   },
@@ -5281,12 +5161,6 @@
     "Zip": "11420"
   },
   {
-    "Prop_ID": "Q151",
-    "Name": "Grand Slope",
-    "Location": "Kneeland Ave., Grand Ave. bet. Manilla St. and Haspel St.",
-    "Zip": "11373"
-  },
-  {
     "Prop_ID": "Q152",
     "Name": "Horsebrook Island",
     "Location": "Justice Ave., 90 St., 56 Ave.",
@@ -5325,6 +5199,7 @@
   {
     "Prop_ID": "Q162H",
     "Name": "Beach 30th Street Playground",
+    "Coords": [40.593189011072994, -73.76270891588379],
     "Location": "Rockaway Boardwalk bet. B. 32 St and B. 28 St.",
     "Zip": "11691"
   },
@@ -5361,6 +5236,7 @@
   {
     "Prop_ID": "Q165",
     "Name": "Spring Creek Park Addition",
+    "Coords": [40.6506620904014, -73.84925763118284],
     "Location": "155 Ave., Flatlands Ave., Belt Pkwy. bet. Fountain Ave. and 80 St.",
     "Zip": "11208, 11414"
   },
@@ -5387,12 +5263,6 @@
     "Name": "St. Michael's Playground",
     "Location": "30 Ave. To 31 Ave. and Boody St., BQE",
     "Zip": "11377"
-  },
-  {
-    "Prop_ID": "Q177",
-    "Name": "Tudor Malls",
-    "Location": "133 Ave. bet. 82 St. and 86 St.",
-    "Zip": "11417"
   },
   {
     "Prop_ID": "Q186",
@@ -5559,6 +5429,7 @@
   {
     "Prop_ID": "Q224",
     "Name": "Calvary Monument",
+    "Coords": [40.731527774665025, -73.92984272244752],
     "Location": "First Calvery, Greenpoint Ave., Gale St.",
     "Zip": "11101"
   },
@@ -5626,12 +5497,6 @@
     "Zip": "11694"
   },
   {
-    "Prop_ID": "Q262",
-    "Name": "Alameda Malls",
-    "Location": "Alameda Ave. bet. Northern Blvd., Hanford St. and Northern Blvd., 247 St.",
-    "Zip": "11362"
-  },
-  {
     "Prop_ID": "Q266",
     "Name": "Westbourne Playground",
     "Location": "Mott Ave., Westbourne Ave. bet. Bay 28 St. and Bay 25 St.",
@@ -5644,28 +5509,10 @@
     "Zip": "11101"
   },
   {
-    "Prop_ID": "Q268",
-    "Name": "Bell Malls",
-    "Location": "Bell Blvd. bet. 48 Ave. and Horace Harding Exwy. Sr. Rd. N.",
-    "Zip": "11364"
-  },
-  {
     "Prop_ID": "Q275",
     "Name": "Patricia A. Brackley Park",
     "Location": "Beach Channel Dr., Cronston Ave., Beach 124 St.",
     "Zip": "11694"
-  },
-  {
-    "Prop_ID": "Q277",
-    "Name": "South Gate Mall",
-    "Location": "Southgate Plaza bet. 140 Ave. and 139 Ave.",
-    "Zip": "11413"
-  },
-  {
-    "Prop_ID": "Q283",
-    "Name": "225 Street Malls",
-    "Location": "225 St. bet. 135 Ave. and 141 Ave.",
-    "Zip": "11413"
   },
   {
     "Prop_ID": "Q284",
@@ -6136,6 +5983,7 @@
   {
     "Prop_ID": "Q360G",
     "Name": "Whitefish Triangle",
+    "Coords": [40.72541000865875, -73.89879151582132],
     "Location": "55 Dr., Hamilton Pl., Perry Ave.",
     "Zip": "11378"
   },
@@ -6319,6 +6167,7 @@
   {
     "Prop_ID": "Q387A",
     "Name": "Bayside Fields",
+    "Coords": [40.7721563107003, -73.78543541764084],
     "Location": "29 Ave. bet. 204 St. and Clearview Exwy. Sr. Rd. W.",
     "Zip": "11360"
   },
@@ -6368,6 +6217,7 @@
   {
     "Prop_ID": "Q393A",
     "Name": "LaGuardia Landing Lights",
+    "Coords": [40.763741905262215, -73.88917973114822],
     "Location": "25 Ave. bet. 78 St. and 79 St.",
     "Zip": "11370"
   },
@@ -6659,6 +6509,7 @@
   {
     "Prop_ID": "Q451",
     "Name": "Underbridge Dog Run",
+    "Coords": [40.73444739056111, -73.84524844650718],
     "Location": "Grand Central Pkwy. Sr. Rd. W. bet. 64 Ave. and 64 Rd.",
     "Zip": "11375"
   },
@@ -6678,6 +6529,7 @@
   {
     "Prop_ID": "Q454",
     "Name": "Hook Creek Park",
+    "Coords": [40.64912082616022, -73.74150165396196],
     "Location": "Brookville Blvd., Huxleyy St. bet. 149 Ave. and Hook Creek Basin",
     "Zip": "11559, 11422"
   },
@@ -6745,6 +6597,7 @@
   {
     "Prop_ID": "Q468",
     "Name": "Louis Armstrong Community Center",
+    "Coords": [40.75486491334717, -73.85550704649735],
     "Location": "107 St., 108 St. bet. Northern Blvd. and 34 Ave.",
     "Zip": "11368"
   },
@@ -6829,12 +6682,14 @@
   {
     "Prop_ID": "Q497",
     "Name": "Lewis H Latimer House",
+    "Coords": [40.766445801203226, -73.82948076183693],
     "Location": "137th St. and Leavitt St.",
     "Zip": "11354"
   },
   {
     "Prop_ID": "Q498",
     "Name": "Sunset Cove Park",
+    "Coords": [40.59791388677191, -73.8228785619162],
     "Location": "W. 19 Rd. bet Jamaica Bay and Cross Bay Blvd.",
     "Zip": "11693"
   },
@@ -6853,6 +6708,7 @@
   {
     "Prop_ID": "Q502",
     "Name": "Rory Staunton Field",
+    "Coords": [40.75445328737144, -73.8883386004627],
     "Location": "78 St., 79 St. bet. Northern Blvd. and 34 Ave.",
     "Zip": "11372"
   },
@@ -6890,24 +6746,28 @@
   {
     "Prop_ID": "QT07",
     "Name": "Federoff Triangle",
+    "Coords": [40.726762936914675, -73.85203877349309],
     "Location": "Queens Blvd., 67 Rd., 102 St.",
     "Zip": "11375"
   },
   {
     "Prop_ID": "QT08",
     "Name": "Newcombe Square",
+    "Coords": [40.71423248533769, -73.83027663910177],
     "Location": "Queens Blvd. bet. Union Tpke. and 80 Rd.",
     "Zip": "11415"
   },
   {
     "Prop_ID": "QT10",
     "Name": "Gwirtzman Triangle",
+    "Coords": [40.57567535464794, -73.86275211589192],
     "Location": "Beach 144 St, Cronston Ave., and Beach Channel Dr",
     "Zip": "11694"
   },
   {
     "Prop_ID": "QZ04",
     "Name": "Answer Triangle",
+    "Coords": [40.74879944002194, -73.87352701581025],
     "Location": "Aske Av & Roosevelt Ave & Whitney Ave",
     "Zip": null
   },
@@ -6921,18 +6781,21 @@
   {
     "Prop_ID": "QZ108",
     "Name": "Veteran's Square",
+    "Coords": [40.67148665090157, -73.73212890354947],
     "Location": "FL Blvd & Sunrise Hwy/So. Conduit Av",
     "Zip": null
   },
   {
     "Prop_ID": "QZ14",
     "Name": "Invictus Triangle",
+    "Coords": [40.716101735965026, -73.78832843117068],
     "Location": "Henley Rd & Charlecote Ridge",
     "Zip": null
   },
   {
     "Prop_ID": "QZ15",
     "Name": "Kingsford Triangle",
+    "Coords": [40.71259572376211, -73.78860640048248],
     "Location": "Wexford Terr & Kingston Pl & Hillside Ave",
     "Zip": null
   },
@@ -6953,43 +6816,36 @@
   {
     "Prop_ID": "QZ20",
     "Name": "Hillcrest Veteran's Square",
+    "Coords": [40.72147782019462, -73.80562694651313],
     "Location": "Union Tpke & 162 St",
     "Zip": null
   },
   {
     "Prop_ID": "QZ24",
     "Name": "Dickson Triangle",
+    "Coords": [40.68374830547215, -73.856088246531],
     "Location": "Rockaway Blvd & 97 Av & 84 St",
-    "Zip": null
-  },
-  {
-    "Prop_ID": "QZ29",
-    "Name": "Erewhon Mall",
-    "Location": "Utopia Pkwy & 188 St & Bagley Av",
     "Zip": null
   },
   {
     "Prop_ID": "QZ299",
     "Name": "Cooper Veteran's Memorial",
+    "Coords": [40.70952682422064, -73.87011484651877],
     "Location": "Cooper Av & 80th St",
     "Zip": null
   },
   {
     "Prop_ID": "QZ30",
     "Name": "Atlantis Triangle",
+    "Coords": [40.74167811497105, -73.79199848512381],
     "Location": "Booth Memorial Av & 58 Av & 183 St",
     "Zip": null
   },
   {
     "Prop_ID": "QZ302",
     "Name": "Musical Triangle",
+    "Coords": [40.750859744081374, -73.8921530964529],
     "Location": "Maurice Av & 51 Av & 69 St.  ",
-    "Zip": null
-  },
-  {
-    "Prop_ID": "QZ31",
-    "Name": "Veteran's Triangle",
-    "Location": "FL Blvd & 33 Av & 191 St ",
     "Zip": null
   },
   {
@@ -7009,18 +6865,21 @@
   {
     "Prop_ID": "QZ37",
     "Name": "Montauk Memorial Triangle",
+    "Coords": [40.683088909726685, -73.75999757312754],
     "Location": "Montauk St & Nellis St & 122 Av ",
     "Zip": null
   },
   {
     "Prop_ID": "QZ38",
     "Name": "Benigno Aquino Triangle",
+    "Coords": [40.714051241979575, -73.77697404651666],
     "Location": "Hillside Av  southbound  & 184 Pl",
     "Zip": null
   },
   {
     "Prop_ID": "QZ39",
     "Name": "Liberty Triangle",
+    "Coords": [40.70343127524222, -73.7668218465217],
     "Location": "Liberty Ave & Farmers Blvd & 109 Ave",
     "Zip": null
   },
@@ -7034,12 +6893,14 @@
   {
     "Prop_ID": "QZ486",
     "Name": "Mitchell Wallace Triangle",
+    "Coords": [40.75267283861025, -73.75920031580844],
     "Location": "Springfield Blvd & 56 Av & 220 St",
     "Zip": null
   },
   {
     "Prop_ID": "QZ59",
     "Name": "Nathaniel Hawthorne Triangle",
+    "Coords": [40.74372569795831, -73.76569090046773],
     "Location": "210 St & Oceania St",
     "Zip": null
   },
@@ -7072,6 +6933,7 @@
   {
     "Prop_ID": "R004",
     "Name": "Barrett Triangle",
+    "Coords": [40.641973689233126, -74.07580953120565],
     "Location": "Hyatt St., Bay St., Stuyvesant Pl. and Richmond Ter.",
     "Zip": "10301"
   },
@@ -7096,12 +6958,14 @@
   {
     "Prop_ID": "R009",
     "Name": "Amundsen Circle",
+    "Coords": [40.564820180674054, -74.13115303124204],
     "Location": "Amboy Rd., Clarke Ave., and Savoy St.",
     "Zip": "10306"
   },
   {
     "Prop_ID": "R010",
     "Name": "Staats Circle",
+    "Coords": [40.5994161626111, -74.07228131588076],
     "Location": "Hylan Blvd. at Sand La.",
     "Zip": "10305"
   },
@@ -7340,6 +7204,7 @@
   {
     "Prop_ID": "R052",
     "Name": "Allison Pond Park",
+    "Coords": [40.636961371531875, -74.10158660051789],
     "Location": "Prospect Ave., N Randall Ave. and Brentwood Ave.",
     "Zip": "10301"
   },
@@ -7352,18 +7217,21 @@
   {
     "Prop_ID": "R057",
     "Name": "Haven Esplanade Park",
+    "Coords": [40.63267504216618, -74.09249643611659],
     "Location": "Haven Esplanade bet. Castleton Ave. and Silver Lake Rd.",
     "Zip": "10301"
   },
   {
     "Prop_ID": "R059",
     "Name": "Von Briesen Park",
+    "Coords": [40.60709262254996, -74.05992599260183],
     "Location": "Tompkins Ave., Bay St. bet. School Rd., North Rd.",
     "Zip": "10305"
   },
   {
     "Prop_ID": "R060",
     "Name": "Dodgers Triangle",
+    "Coords": [40.615101740539856, -74.11945801587345],
     "Location": "Dongan Ave. at Hodges Pl.",
     "Zip": "10314"
   },
@@ -7486,6 +7354,7 @@
   {
     "Prop_ID": "R077",
     "Name": "St. George Park",
+    "Coords": [40.644791614127584, -74.07793965937681],
     "Location": "Stuyvesant Pl. bet. Wall St. and Hamilton Ave.",
     "Zip": "10301"
   },
@@ -7579,6 +7448,7 @@
   {
     "Prop_ID": "R101",
     "Name": "Wegener Park",
+    "Coords": [40.552590732478265, -74.17599130040722],
     "Location": "Drumgoole Rd. E., Annadale Rd., Genesee Ave.",
     "Zip": "10312"
   },
@@ -7671,6 +7541,7 @@
   {
     "Prop_ID": "R120",
     "Name": "Arden Woods",
+    "Coords": [40.55919781221965, -74.19153450368495],
     "Location": "Arthur Kill Rd., Arden Ave. and Halpin Ave.",
     "Zip": "10312"
   },
@@ -7707,12 +7578,14 @@
   {
     "Prop_ID": "R126",
     "Name": "Gaeta Park",
+    "Coords": [40.610179505408674, -74.14946011587574],
     "Location": "N. Gannon Ave., Willow Road E., Victory Blvd., Wyona Ave.",
     "Zip": "10314"
   },
   {
     "Prop_ID": "R127",
     "Name": "Joseph Manna Park",
+    "Coords": [40.62608868694324, -74.1770187619032],
     "Location": "Forest Ave., Goethals Rd. N., Meeker Ave.",
     "Zip": "10303"
   },
@@ -7787,6 +7660,7 @@
   {
     "Prop_ID": "R140",
     "Name": "King Fisher Park",
+    "Coords": [40.562478564262484, -74.1510878386579],
     "Location": "Miles Ave., Corbin Ave., Barlow Ave., Fairfield St.",
     "Zip": "10308"
   },
@@ -7835,6 +7709,7 @@
   {
     "Prop_ID": "R150",
     "Name": "Graniteville Quarry Park",
+    "Coords": [40.62504084740953, -74.1538638158687],
     "Location": "Forest Ave. Wilcox Ave., bet. Van Name Ave. and Eunice Pl.",
     "Zip": "10303"
   },
@@ -7871,6 +7746,7 @@
   {
     "Prop_ID": "R159",
     "Name": "Old Place Creek Park",
+    "Coords": [40.617373515832625, -74.18101511204455],
     "Location": "Gulf Ave., Goethals Br. Appr. bet. Western Ave. and Arthur Kill",
     "Zip": "10314"
   },
@@ -7907,6 +7783,7 @@
   {
     "Prop_ID": "R165",
     "Name": "Blueberry Park",
+    "Coords": [40.528619984862814, -74.1601973159141],
     "Location": "Arden Ave. at Blueberry Lane",
     "Zip": "10312"
   },
@@ -7919,12 +7796,14 @@
   {
     "Prop_ID": "R167",
     "Name": "Richmond Terrace Park",
+    "Coords": [40.637520477467035, -74.15372323120751],
     "Location": "Richmond Ter. bet. Van Pelt Ave. and Van Name Ave.",
     "Zip": "10303"
   },
   {
     "Prop_ID": "R169",
     "Name": "Goodhue Park",
+    "Coords": [40.63697156789107, -74.09668471586303],
     "Location": "Brighton Ave. bet. Lafayette Ave. and N. Randall Ave. ",
     "Zip": "10301"
   },
@@ -7937,14 +7816,9 @@
   {
     "Prop_ID": "R172",
     "Name": "Brookfield Park",
+    "Coords": [40.56400608756007, -74.1627082005525],
     "Location": "Arthur Kill Rd. bet. Richmond Ave. and New Vale Ave.",
     "Zip": "10308"
-  },
-  {
-    "Prop_ID": "RZ03",
-    "Name": "War Memorial",
-    "Location": "Richmond Rd & Rockland Ave",
-    "Zip": null
   },
   {
     "Prop_ID": "X001",
@@ -8350,6 +8224,7 @@
   {
     "Prop_ID": "X069",
     "Name": "Hutton Triangle",
+    "Coords": [40.852422682779256, -73.89011538877864],
     "Location": "E. 182 St. at Quarry Rd. and Arthur Ave.",
     "Zip": "10457"
   },
@@ -8395,18 +8270,6 @@
     "Name": "Henry Hudson Park",
     "Location": "Palisade Av, Kappock St,  Independence A",
     "Zip": "10463"
-  },
-  {
-    "Prop_ID": "X081",
-    "Name": "Mount Eden Malls",
-    "Location": "Mount Eden Pkwy bet. Weeks Av and Walton Av",
-    "Zip": "10452, 10457"
-  },
-  {
-    "Prop_ID": "X082",
-    "Name": "University Malls",
-    "Location": "University Av bet. W 174 St and W Tremont Av",
-    "Zip": "10453"
   },
   {
     "Prop_ID": "X084",
@@ -8610,12 +8473,14 @@
   {
     "Prop_ID": "X119",
     "Name": "Alexander's Alley",
+    "Coords": [40.81175041725572, -73.92313220043552],
     "Location": "E. 141 St. bet. Willis Ave. and Alexander Ave.",
     "Zip": "10454"
   },
   {
     "Prop_ID": "X120",
     "Name": "Highbridge Park",
+    "Coords": [40.84258021953476, -73.9261179575464],
     "Location": "Dr. MLK Jr. Blvd. at W. 170 St.",
     "Zip": "10452"
   },
@@ -8701,6 +8566,7 @@
   {
     "Prop_ID": "X139",
     "Name": "Gouverneur Morris Triangle",
+    "Coords": [40.80491435962078, -73.91265421578375],
     "Location": "Bruckner Blvd., Jackson Ave., E. 138 St.",
     "Zip": "10454"
   },
@@ -8733,18 +8599,6 @@
     "Name": "Starlight Park-Starlight Park Playground",
     "Coords": [40.834487, -73.881899],
     "Location": "Sheridan Exwy, Bronx River, S/o E 174 St Bridge",
-    "Zip": null
-  },
-  {
-    "Prop_ID": "X147A-ZN01",
-    "Name": "Starlight Park Zone 1",
-    "Location": "E 172 To Bridge N/o E 174 Sts, Sheridan Exwy, Bronx River",
-    "Zip": null
-  },
-  {
-    "Prop_ID": "X147A-ZN02",
-    "Name": "Starlight Park Zone 2",
-    "Location": "E 174 To E 177 Sts, Bronx River, Amtrak And Bus Depot",
     "Zip": null
   },
   {
@@ -8801,6 +8655,7 @@
   {
     "Prop_ID": "X148D1",
     "Name": "Morris Mesa",
+    "Coords": [40.84563124254019, -73.9103546311095],
     "Location": "N/s Cross Bronx Exwy bet. Morris Av and Grand Concourse",
     "Zip": "10457"
   },
@@ -8831,6 +8686,7 @@
   {
     "Prop_ID": "X148J2",
     "Name": "Boone Slope",
+    "Coords": [40.83772277877999, -73.88228614645814],
     "Location": "N/B Cross Bronx Exwy Exit Ramp bet. Boone Av and W Farms Rd",
     "Zip": "10460"
   },
@@ -9230,6 +9086,7 @@
   {
     "Prop_ID": "X209",
     "Name": "Wave Hill",
+    "Coords": [40.897959364537186, -73.91197426678812],
     "Location": "W 248 St, Independence Av , W 252 St , P",
     "Zip": "10471"
   },
@@ -9315,6 +9172,7 @@
   {
     "Prop_ID": "X236",
     "Name": "Mapes Pool",
+    "Coords": [40.84682657155445, -73.88616537714387],
     "Location": "E 180 St bet. Prospect Av and Mapes Av",
     "Zip": "10460"
   },
@@ -9353,6 +9211,7 @@
   {
     "Prop_ID": "X246",
     "Name": "Brook Park",
+    "Coords": [40.812416995653784, -73.91865425874134],
     "Location": "Brook Ave. bet. E. 141 St. and E. 140 St.",
     "Zip": "10454"
   },
@@ -9371,6 +9230,7 @@
   {
     "Prop_ID": "X251",
     "Name": "Co-op City Field",
+    "Coords": [40.87615366476072, -73.823710731095],
     "Location": "Co-op City Blvd. and the Hutch. River bet. Carver Loop and Bellamy Loop",
     "Zip": "10475"
   },
@@ -9414,6 +9274,7 @@
   {
     "Prop_ID": "X259",
     "Name": "Raoul Wallenberg Forest",
+    "Coords": [40.88799662475475, -73.91770940039952],
     "Location": "Palisade Av, Douglas Av bet. W 235 St and  ",
     "Zip": "10471"
   },
@@ -9440,6 +9301,7 @@
   {
     "Prop_ID": "X263",
     "Name": "Quarry Ballfields",
+    "Coords": [40.851155315811084, -73.89101394645176],
     "Location": "E. 181 St., Oak Tree Pl. bet. Quarry Rd. and Hughes Ave.",
     "Zip": "10457"
   },
@@ -9515,6 +9377,7 @@
   {
     "Prop_ID": "X279",
     "Name": "City Island Wetlands",
+    "Coords": [40.84760265563447, -73.7915658172128],
     "Location": "Bay St, Tier St, Echester Bay",
     "Zip": "10464"
   },
@@ -9545,6 +9408,7 @@
   {
     "Prop_ID": "X284",
     "Name": "Printers Park",
+    "Coords": [40.824109421528675, -73.89068152579985],
     "Location": "Hoe Av bet. Aldus St and Westchester Av",
     "Zip": "10459"
   },
@@ -9624,6 +9488,7 @@
   {
     "Prop_ID": "X304",
     "Name": "Tiffany Street Pier",
+    "Coords": [40.80578690864642, -73.88957140043836],
     "Location": "Tiffany St. at Viele Ave.",
     "Zip": "10455"
   },
@@ -9638,18 +9503,6 @@
     "Name": "Barretto Point Park",
     "Location": "Viele Ave. bet. Tiffany St. and Barretto St.",
     "Zip": "10474"
-  },
-  {
-    "Prop_ID": "X308",
-    "Name": "North Brother Island",
-    "Location": "East River",
-    "Zip": "10474"
-  },
-  {
-    "Prop_ID": "X309",
-    "Name": "South Brother Island",
-    "Location": "East River",
-    "Zip": "10021"
   },
   {
     "Prop_ID": "X310",
@@ -9704,14 +9557,9 @@
   {
     "Prop_ID": "X354",
     "Name": "P.S. 29 Ballfield",
+    "Coords": [40.82173025435127, -73.9160198157758],
     "Location": "E 157 St bet. Melrose Ave and Cortlandt Ave",
     "Zip": "10451"
-  },
-  {
-    "Prop_ID": "X360",
-    "Name": "5 Borough Shops",
-    "Location": "Walnut Ave. bet. E. 138 St. and E. 137 St.",
-    "Zip": "10454"
   },
   {
     "Prop_ID": "X362",
@@ -9737,6 +9585,7 @@
   {
     "Prop_ID": "XZ29",
     "Name": "Captain Oliver Triangle",
+    "Coords": [40.822826098208516, -73.90943390043026],
     "Location": "Saint Anns And 161st Street",
     "Zip": null
   }
