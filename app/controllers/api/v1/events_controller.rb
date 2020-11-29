@@ -42,6 +42,12 @@ class Api::V1::EventsController < ApplicationController
     render json: EventSerializer.new(event)
   end
 
+  def cancel
+    event = Event.find(params[:id])
+    UserEvent.find_by(event: event, user_id: current_user.id).destroy
+    render json: EventSerializer.new(event)
+  end
+
   
   private
   

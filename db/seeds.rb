@@ -216,13 +216,13 @@ end
 
 natpreserve = JSON.parse(File.read('./lib/seeds/activities/DPR_NaturePreserves_001.json'))
 natpreserve.each do |nat|
-  park = Park.find_by(nycParkId: nat['Prop_ID'])
+  park = Park.find_by(nycParkId: nat['ParkID'])
   if(park)
-    Activity.create(name: 'Nature Preserve', park: park, addl_detail: nat['HabitatType'])
+    Activity.create(name: 'Nature Preserve', park: park, addl_detail: nat['Description'])
   end
 end
 
-playgrounds = JSON.parse(File.read('./lib/seeds/activities/DPR_NaturePreserves_001.json'))
+playgrounds = JSON.parse(File.read('./lib/seeds/activities/DPR_Playgrounds_001.json'))
 playgrounds.each do |pg|
   park = Park.find_by(nycParkId: pg['Prop_ID'])
   if(park)
@@ -242,7 +242,7 @@ outdoor_pools = JSON.parse(File.read('./lib/seeds/activities/DPR_Pools_outdoor_0
 outdoor_pools.each do |pool|
   park = Park.find_by(nycParkId: pool['Prop_ID'])
   if(park)
-    Activity.create(name: 'Indoor Pool', park: park, addl_detail: pool['Pools_indoor_Type'])
+    Activity.create(name: 'Outdoor Pool', park: park, addl_detail: pool['Pools_outdoor_Type'])
   end
 end
 
