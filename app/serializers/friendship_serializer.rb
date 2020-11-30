@@ -1,6 +1,6 @@
 class FriendshipSerializer
   include FastJsonapi::ObjectSerializer
-  attributes :id, :user_id, :friend_id, :status
+  attributes :id, :user_id, :friend_id, :status, :friender_id
 
 attribute :username do |friendship|
   friendship.user.username

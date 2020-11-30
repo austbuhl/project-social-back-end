@@ -288,5 +288,7 @@ end
 end
 
 250.times do 
-  Friendship.friend_request(User.all.sample.id, User.all.sample.id)
+  user1 = User.all.sample.id
+  user2 = User.all.sample.id
+  Friendship.friend_request(user1, user2)
 end
