@@ -272,7 +272,9 @@ end
 
 
 250.times do 
-  EventActivity.create(event: Event.all.sample, activity: Activity.all.sample )
+  event = Event.all.sample
+  activities = event.park.activities
+  EventActivity.create(event: event, activity: activities.sample )
 end
 
 250.times do 
@@ -280,9 +282,11 @@ end
 end
 
 250.times do 
-  Comment.create(user: User.all.sample, event: Event.all.sample, text: Faker::Food.description)
+  event = Event.all.sample
+  user = event.users
+  Comment.create(user: user.sample, event: event, text: Faker::Food.description)
 end
 
-50.times do 
-  Friendship.create(user: User.all.sample, friend: User.all.sample, status: ['pending', 'accepted'].sample)
+250.times do 
+  Friendship.friend_request(User.all.sample.id, User.all.sample.id)
 end
