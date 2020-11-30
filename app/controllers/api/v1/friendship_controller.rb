@@ -12,8 +12,9 @@ class Api::V1::FriendshipController < ApplicationController
   end
 
   def update
+    # friendship = Friendship.find_by({user_id: current_user.id, friend_id: params[:friend_id]})
     Friendship.accept_friend(current_user.id, params[:friend_id])
-    render json: FriendshipSerializer.new(Friendship.all.last(2))
+    render json: FriendshipSerializer.new(Friendship.order(:updated_at).last(2))
   end
   
   def destroy
