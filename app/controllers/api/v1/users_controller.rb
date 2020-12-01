@@ -14,7 +14,10 @@ class Api::V1::UsersController < ApplicationController
     user = User.create(user_params)
     if user.valid?
       token = encode_token(user_id: user.id)
-      render json: {user: user, jwt: token}
+      options = {
+        meta: token
+      }
+      render json: UserSerializer.new(user, options)
     else
       render json: {error: 'failed to create user'}
     end
