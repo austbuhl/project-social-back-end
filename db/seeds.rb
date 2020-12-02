@@ -98,13 +98,14 @@ parks.each do |park|
 end
 
 
+# Faker::Internet.username
 user1 = User.create(username: 'test', password: 'test')
-25.times do 
-  User.create(username: Faker::Internet.username, password: Faker::Internet.password)
+250.times do 
+  User.create(username: Faker::FunnyName.name, password: Faker::Internet.password)
 end
 
-50.times do 
-  Event.create(name: Faker::Coffee.blend_name , description: Faker::Coffee.notes , num_of_people: rand(20), date: Date.today + (rand * 21), time:Time.at(rand * Time.now.to_i).strftime('%H:%M'), park: Park.all.sample)
+1000.times do 
+  Event.create(name: Faker::Coffee.blend_name , description: Faker::Coffee.notes.capitalize , num_of_people: rand(20), date: Date.today + (rand * 21), time:Time.at(rand * Time.now.to_i).strftime('%H:%M'), park: Park.all.sample)
 end
 
 
@@ -271,24 +272,34 @@ zoos.each do |zoo|
 end
 
 
-250.times do 
+1000.times do 
   event = Event.all.sample
   activities = event.park.activities
   EventActivity.create(event: event, activity: activities.sample )
 end
 
-250.times do 
+1000.times do 
   UserEvent.create(user: User.all.sample, event: Event.all.sample)
 end
 
-250.times do 
+1000.times do 
   event = Event.all.sample
   user = event.users
-  Comment.create(user: user.sample, event: event, text: Faker::Food.description)
+  Comment.create(user: user.sample, event: event, text: Faker::TvShows::MichaelScott.quote)
 end
 
-250.times do 
+1000.times do 
   user1 = User.all.sample.id
   user2 = User.all.sample.id
   Friendship.friend_request(user1, user2)
 end
+
+## Faker::Marketing.buzzwords #=> "rubber meets the road", "sprint to the finish line"
+## Faker::Company.catch_phrase #=> "Business-focused coherent parallelism"
+
+## for comments ? Faker::Hacker.say_something_smart #=> "Try to compress the SQL interface, maybe it will program the back-end hard drive!"
+## more comments Faker::ChuckNorris.fact #=> "Chuck Norris can solve the Towers of Hanoi in one move."
+## Faker::TvShows::MichaelScott.quote #=> "I am Beyoncé, always."
+
+# Faker::Subscription.payment_term #=> "Monthly"
+# Faker::Music.album #=> "Sgt. Pepper's Lonely Hearts Club"
