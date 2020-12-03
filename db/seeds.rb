@@ -75,14 +75,14 @@ require 'csv'
 
 # parks_file = File.read('./lib/seeds/parks.json')
 
-# Park.destroy_all
-# EventActivity.destroy_all
-# UserEvent.destroy_all
-# Activity.destroy_all
-# User.destroy_all
-# Comment.destroy_all
-# Event.destroy_all
-# Friendship.destroy_all
+Park.destroy_all
+EventActivity.destroy_all
+UserEvent.destroy_all
+Activity.destroy_all
+User.destroy_all
+Comment.destroy_all
+Event.destroy_all
+Friendship.destroy_all
 
 parks = JSON.parse(File.read('./lib/seeds/output.json'))
 parks.each do |park|
@@ -99,14 +99,15 @@ end
 
 
 # Faker::Internet.username
-user1 = User.create(username: 'test', password: 'test')
-250.times do 
+austin = User.create(username: 'Austin', password: 'Austin')
+100.times do 
   User.create(username: Faker::FunnyName.name, password: Faker::Internet.password)
 end
 
 1000.times do 
   Event.create(name: Faker::Coffee.blend_name , description: Faker::Coffee.notes.capitalize , num_of_people: rand(20), date: Date.today + (rand * 21), time:Time.at(rand * Time.now.to_i).strftime('%H:%M'), park: Park.all.sample)
 end
+
 
 
 artmap = JSON.parse(File.read('./lib/seeds/activities/DPR_ArtMonumentsMap_001.json'))
@@ -288,11 +289,36 @@ end
   Comment.create(user: user.sample, event: event, text: Faker::TvShows::MichaelScott.quote)
 end
 
-1000.times do 
+10.times do 
+  event = Event.find(1001)
+  user = event.users
+  Comment.create(user: user.sample, event: event, text: Faker::TvShows::MichaelScott.quote)
+end
+
+250.times do 
   user1 = User.all.sample.id
   user2 = User.all.sample.id
   Friendship.friend_request(user1, user2)
 end
+
+5.times do 
+  Friendship.friend_request(1, User.all.sample.id)
+end
+
+5.times do
+  Friendship.friend_request(User.all.sample.id, 1)
+end
+
+
+25.times do 
+  UserEvent.create(user: austin, event: Event.all.sample)
+end
+
+# 50.times do 
+#   event = austin.events.sample
+#   # user = event.users
+#   Comment.create(user: austin, event: event, text: Faker::TvShows::MichaelScott.quote)
+# end
 
 ## Faker::Marketing.buzzwords #=> "rubber meets the road", "sprint to the finish line"
 ## Faker::Company.catch_phrase #=> "Business-focused coherent parallelism"
