@@ -289,7 +289,7 @@ end
   Comment.create(user: user.sample, event: event, text: Faker::TvShows::MichaelScott.quote)
 end
 
-10.times do 
+5.times do 
   event = Event.find(1001)
   user = event.users
   Comment.create(user: user.sample, event: event, text: Faker::TvShows::MichaelScott.quote)

@@ -19,7 +19,7 @@ class Api::V1::UsersController < ApplicationController
       }
       render json: UserSerializer.new(user, options)
     else
-      render json: {error: 'failed to create user'}
+      render json: {status: 500, errors: user.errors.full_messages}
     end
   end
 
