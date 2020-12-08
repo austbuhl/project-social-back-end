@@ -4,7 +4,7 @@ class User < ApplicationRecord
   has_many :events, through: :user_events
 
   has_many :friendships, dependent: :destroy
-  has_many :friends, through: :friendships, dependent: :destroy
+  has_many :friends, through: :friendships
 
   has_secure_password
   validates :username, presence: true
