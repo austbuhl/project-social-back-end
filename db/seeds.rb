@@ -4,7 +4,7 @@ require 'geocoder'
 require 'json'
 require 'csv'
 
-
+## Combining all the parks & activities datasets to find coords
 # File.open("output.json", "w") do |f|     
 #   parks = JSON.parse(File.read('./lib/seeds/parks.json'))
 #   playgrounds = JSON.parse(File.read('./lib/seeds/activities/DPR_Playgrounds_001.json'))
@@ -71,9 +71,6 @@ require 'csv'
 #   f.puts(json_string)
 # end
 
-
-
-# parks_file = File.read('./lib/seeds/parks.json')
 
 Park.destroy_all
 EventActivity.destroy_all
@@ -289,12 +286,6 @@ end
   Comment.create(user: user.sample, event: event, text: Faker::TvShows::MichaelScott.quote)
 end
 
-5.times do 
-  event = Event.find(1001)
-  user = event.users
-  Comment.create(user: user.sample, event: event, text: Faker::TvShows::MichaelScott.quote)
-end
-
 250.times do 
   user1 = User.all.sample.id
   user2 = User.all.sample.id
@@ -302,30 +293,14 @@ end
 end
 
 5.times do 
-  Friendship.friend_request(1, User.all.sample.id)
+  Friendship.friend_request(austin.id, User.all.sample.id)
 end
 
 5.times do
-  Friendship.friend_request(User.all.sample.id, 1)
+  Friendship.friend_request(User.all.sample.id, austin.id)
 end
 
 
 25.times do 
   UserEvent.create(user: austin, event: Event.all.sample)
 end
-
-# 50.times do 
-#   event = austin.events.sample
-#   # user = event.users
-#   Comment.create(user: austin, event: event, text: Faker::TvShows::MichaelScott.quote)
-# end
-
-## Faker::Marketing.buzzwords #=> "rubber meets the road", "sprint to the finish line"
-## Faker::Company.catch_phrase #=> "Business-focused coherent parallelism"
-
-## for comments ? Faker::Hacker.say_something_smart #=> "Try to compress the SQL interface, maybe it will program the back-end hard drive!"
-## more comments Faker::ChuckNorris.fact #=> "Chuck Norris can solve the Towers of Hanoi in one move."
-## Faker::TvShows::MichaelScott.quote #=> "I am Beyoncé, always."
-
-# Faker::Subscription.payment_term #=> "Monthly"
-# Faker::Music.album #=> "Sgt. Pepper's Lonely Hearts Club"

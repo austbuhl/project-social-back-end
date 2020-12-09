@@ -383,7 +383,7 @@
     "Prop_ID": "B094",
     "Name": "Sgt. Joyce Kilmer Triangle",
     "Location": "E. 12 St., Kings Hwy., Quentin Rd.",
-    "Coords": [40.52327, -74.43415],
+    "Coords": [40.607949095266925, -73.96066350207664],
     "Zip": "11229"
   },
   {
@@ -396,7 +396,7 @@
     "Prop_ID": "B096",
     "Name": "Sgt. William Dougherty Playground",
     "Location": "Vandervoort Ave. bet. Cherry St. and Anthony St.",
-    "Coords": [32.30576, -80.95223],
+    "Coords": [40.72372797933082, -73.93707327278078],
     "Zip": "11222"
   },
   {
@@ -415,7 +415,7 @@
     "Prop_ID": "B099",
     "Name": "Lt. Joseph Petrosino Park",
     "Location": "16 Ave., New Utrecht Ave. bet. 70 St. and 71 St.",
-    "Coords": [40.19113, -75.13655],
+    "Coords": [40.61909916050783, -73.99853018812682],
     "Zip": "11228"
   },
   {
@@ -513,7 +513,7 @@
     "Prop_ID": "B114",
     "Name": "Msgr. McGolrick Park",
     "Location": "Russell St., Monitor St. bet. Nassau Ave. and Driggs Ave.",
-    "Coords": [28.66056, -77.13102],
+    "Coords": [40.72450880296006, -73.94344626113963],
     "Zip": "11222"
   },
   {
@@ -2795,6 +2795,7 @@
   {
     "Prop_ID": "M030",
     "Name": "Thomas Paine Park",
+    "Coords": [40.71500768313794, -74.00272607463229],
     "Location": "Lafayette St., Centre St. bet. Worth St., Pearl St. and Duane St.",
     "Zip": "10007"
   },
@@ -5145,6 +5146,7 @@
   {
     "Prop_ID": "Q142",
     "Name": "Jacob Riis Triangle",
+    "Coords": [40.70201204761128, -73.83493468812487],
     "Location": "Bessemer St., 116 St., 85 Ave.",
     "Zip": "11418"
   },
@@ -5517,6 +5519,7 @@
   {
     "Prop_ID": "Q284",
     "Name": "Sixteen Oaks Grove",
+    "Coords": [40.75867323480127, -73.9383235],
     "Location": "37 Ave., 14 St., 21 St.",
     "Zip": "11101"
   },
